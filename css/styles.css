@@ -436,7 +436,6 @@ a {
   width: 288px;
   margin-bottom: 72px;
 }
-.advantages-item:nth-last-child(2), 
 .advantages-item:last-child {
   margin-bottom: 0;
 }
@@ -470,6 +469,9 @@ a {
   }
   .caption-advantages {
     text-align: left;
+  }
+  .advantages-item:nth-last-child(2) {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1158px) {
